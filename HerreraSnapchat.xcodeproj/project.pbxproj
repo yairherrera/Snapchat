@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		22F5400329105AFD00590173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5400229105AFD00590173 /* AppDelegate.swift */; };
 		22F5400529105AFD00590173 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5400429105AFD00590173 /* SceneDelegate.swift */; };
-		22F5400729105AFD00590173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5400629105AFD00590173 /* ViewController.swift */; };
 		22F5400A29105AFD00590173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F5400829105AFD00590173 /* Main.storyboard */; };
 		22F5400C29105B0000590173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F5400B29105B0000590173 /* Assets.xcassets */; };
 		22F5400F29105B0000590173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F5400D29105B0000590173 /* LaunchScreen.storyboard */; };
+		22F5401729105D0100590173 /* GoogleService-Info.plist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22F5401629105D0000590173 /* GoogleService-Info.plist.txt */; };
+		22FFF1E929106D870093CACF /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFF1E829106D870093CACF /* IniciarSesionViewController.swift */; };
+		70712E637F8C86AD5398B51D /* Pods_HerreraSnapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D476906D98A3B6B431E95F34 /* Pods_HerreraSnapchat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22F53FFF29105AFD00590173 /* HerreraSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerreraSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F5400229105AFD00590173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22F5400429105AFD00590173 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22F5400629105AFD00590173 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22F5400929105AFD00590173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22F5400B29105B0000590173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22F5400E29105B0000590173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22F5401029105B0000590173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F5401629105D0000590173 /* GoogleService-Info.plist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GoogleService-Info.plist.txt"; sourceTree = "<group>"; };
+		22FFF1E829106D870093CACF /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
+		60BB621760596A5C68AD2374 /* Pods-HerreraSnapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerreraSnapchat.release.xcconfig"; path = "Target Support Files/Pods-HerreraSnapchat/Pods-HerreraSnapchat.release.xcconfig"; sourceTree = "<group>"; };
+		D476906D98A3B6B431E95F34 /* Pods_HerreraSnapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HerreraSnapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E553059E776672285E55D382 /* Pods-HerreraSnapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerreraSnapchat.debug.xcconfig"; path = "Target Support Files/Pods-HerreraSnapchat/Pods-HerreraSnapchat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70712E637F8C86AD5398B51D /* Pods_HerreraSnapchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		029CA27E8FAB8A4BBB9BD844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D476906D98A3B6B431E95F34 /* Pods_HerreraSnapchat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		22F53FF629105AFD00590173 = {
 			isa = PBXGroup;
 			children = (
 				22F5400129105AFD00590173 /* HerreraSnapchat */,
 				22F5400029105AFD00590173 /* Products */,
+				7B321597D3F54E064911FD98 /* Pods */,
+				029CA27E8FAB8A4BBB9BD844 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +75,23 @@
 			children = (
 				22F5400229105AFD00590173 /* AppDelegate.swift */,
 				22F5400429105AFD00590173 /* SceneDelegate.swift */,
-				22F5400629105AFD00590173 /* ViewController.swift */,
+				22FFF1E829106D870093CACF /* IniciarSesionViewController.swift */,
 				22F5400829105AFD00590173 /* Main.storyboard */,
 				22F5400B29105B0000590173 /* Assets.xcassets */,
+				22F5401629105D0000590173 /* GoogleService-Info.plist.txt */,
 				22F5400D29105B0000590173 /* LaunchScreen.storyboard */,
 				22F5401029105B0000590173 /* Info.plist */,
 			);
 			path = HerreraSnapchat;
+			sourceTree = "<group>";
+		};
+		7B321597D3F54E064911FD98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E553059E776672285E55D382 /* Pods-HerreraSnapchat.debug.xcconfig */,
+				60BB621760596A5C68AD2374 /* Pods-HerreraSnapchat.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22F5401329105B0000590173 /* Build configuration list for PBXNativeTarget "HerreraSnapchat" */;
 			buildPhases = (
+				E1B438F52FB4CBEE9B2BCF32 /* [CP] Check Pods Manifest.lock */,
 				22F53FFB29105AFD00590173 /* Sources */,
 				22F53FFC29105AFD00590173 /* Frameworks */,
 				22F53FFD29105AFD00590173 /* Resources */,
+				25261D7536564E2973FA5045 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +140,10 @@
 				Base,
 			);
 			mainGroup = 22F53FF629105AFD00590173;
+			packageReferences = (
+				22FFF1EA291072010093CACF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				22FFF1EB2910727D0093CACF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 22F5400029105AFD00590173 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,17 +161,60 @@
 				22F5400F29105B0000590173 /* LaunchScreen.storyboard in Resources */,
 				22F5400C29105B0000590173 /* Assets.xcassets in Resources */,
 				22F5400A29105AFD00590173 /* Main.storyboard in Resources */,
+				22F5401729105D0100590173 /* GoogleService-Info.plist.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25261D7536564E2973FA5045 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HerreraSnapchat/Pods-HerreraSnapchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HerreraSnapchat/Pods-HerreraSnapchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HerreraSnapchat/Pods-HerreraSnapchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1B438F52FB4CBEE9B2BCF32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HerreraSnapchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22F53FFB29105AFD00590173 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22F5400729105AFD00590173 /* ViewController.swift in Sources */,
+				22FFF1E929106D870093CACF /* IniciarSesionViewController.swift in Sources */,
 				22F5400329105AFD00590173 /* AppDelegate.swift in Sources */,
 				22F5400529105AFD00590173 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +358,7 @@
 		};
 		22F5401429105B0000590173 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E553059E776672285E55D382 /* Pods-HerreraSnapchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +386,7 @@
 		};
 		22F5401529105B0000590173 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BB621760596A5C68AD2374 /* Pods-HerreraSnapchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -356,6 +434,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22FFF1EA291072010093CACF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		22FFF1EB2910727D0093CACF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 22F53FF729105AFD00590173 /* Project object */;
 }
